@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "server.js",
   "dependencies": {
+    "body-parser": "^1.14.1",
     "express": "latest",
+    "express-session": "^1.12.1",
     "jade": "^1.11.0",
     "vash": "^0.11.0"
   }
