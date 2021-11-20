@@ -1,11 +1,13 @@
 {
   "name": "node-website-example",
   "version": "1.0.0",
-  "main": "server.js",
+  "description": "Just a simple website written in Node.js using Express and Pug.",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Andy Reynolds",
+  "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.14.1",
-    "express": "latest",
-    "express-session": "^1.12.1",
-    "jade": "^1.11.0"
+    "express": "^4.17.1",
+    "pug": "^3.0.2"
   }
 }

@@ -1,0 +1,13 @@
+extend _layout
+
+block content
+    .text-center.mt-5
+        h1 Node Website Example v1.0
+        p.lead Example website built in Node.js.
+
+        .row.justify-content-center
+            .col-sm-4
+                .alert.alert-info(role="alert")
+                    h4.alert-heading Hostname
+                    p #{hostname}
+
